@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>SpyGer An A1 Coders Product</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class ="login-page">
+	<div class = "form">
+	 <form class = "register-form">
+	 <input type = "text" placeholder="username"/>
+	 <input type = "password" placeholder="password"/>
+     <input type="password" placeholder="confirm password"/>
+	 <input type = "text" placeholder="e-mail"/>
+	<button>create</button>
+         <p class="message">Already have an account? <a href="#">Login</a>
+         </p>
+	</form>
+        
+        <form class="login-form">
+            <input type="text" placeholder="username/email"/>
+            <input type="password" placeholder="password"/>
+            <button>Login</button>
+            <a style="color:aliceblue;" href="#">Fogot password?</a>
+            <p class="message">Not Registered?<a href="#">Register</a>
+            </p>
+            
+            
+            
+        
+        </form>
+        <div class="down-box">
+            <span class="continue-with">Continue with<br/>
+            </span>
+            <button class="social facebook">continue with Facebook</button>
+            <button class="social twitter">continue with Twitter</button>
+            <button class="social google">continue with Google+</button>
+
+
+        </div>
+        
+        
+</div>
+</div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script>
+    $('.message a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+    </script>
+    <!-- copyright -->
+				<div class="copy-right">
+					<p>© SpyGer.All rights reserved to A1_Coders!
+                    </p>
+				</div>
+				<!-- //copyright -->
+</body>
+</html>
